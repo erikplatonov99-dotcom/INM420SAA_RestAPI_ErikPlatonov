@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.astro-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.astro-input input {
+    padding: 10px 14px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+.astro-input button {
+    padding: 10px 18px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #4a6cf7;
+    color: white;
+    transition: background 0.2s ease;
+}
+
+.astro-input button:hover {
+    background-color: #364fc7;
+}
+
+#astro-info-placeholder {
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    min-width: 280px;
+}
+.location {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.sun-info {
+    font-size: 15px;
+    color: #444;
+}
